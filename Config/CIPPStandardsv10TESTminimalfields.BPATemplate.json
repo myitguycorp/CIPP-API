@@ -1,0 +1,39 @@
+{
+  "name": "CIPP Standards v1.0 - TEST, minimal fields",
+  "style": "Table",
+  "Fields": [
+    {
+      "name": "ActivityBasedTimeout",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "ActivityBasedTimeout",
+          "value": "ActivityBasedTimeout",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "softwareOath",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "softwareOath",
+          "value": "softwareOath",
+          "formatter": "bool"
+        }
+      ]
+    },
+    {
+      "name": "MSAuthenticator",
+      "UseExistingInfo": true,
+      "FrontendFields": [
+        {
+          "name": "MSAuthenticator",
+          "value": "MSAuthenticator",
+          "formatter": "bool"
+        }
+      ]
+    }
+  ]
+}
